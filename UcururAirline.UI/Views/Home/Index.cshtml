@@ -1,0 +1,208 @@
+﻿<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css"></script>
+<body>
+
+    <div class="container">
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active" style="background-image: url('../../pic1.jpg');">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>First Slide</h3>
+                            <p>This is a description for the first slide.</p>
+                        </div>
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style=" background-image: url('../../pic2.jpg'); ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Second Slide</h3>
+                            <p>This is a description for the second slide.</p>
+                        </div>
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style=" background-image: url('../../pic3.jpg');">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Third Slide</h3>
+                            <p>This is a description for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+
+
+        <div id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Uçak Bileti Ara
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <h5>    <input type="radio" name="gender" value="Gidiş-Dönüş" /> Gidiş-Dönüş</h5>
+
+                            </div>
+                            <div class="col-md-2">
+                                <h5>   <input type="radio" name="gender" value="Tek Yön" />Tek Yön</h5>
+                            </div>
+                            <div class="col-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Nerden
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <a class="dropdown-item" href="#">Ankara</a>
+                                        <a class="dropdown-item" href="#">İstanbul</a>
+                                        <a class="dropdown-item" href="#">Bolu</a>
+                                        <a class="dropdown-item" href="#">İzmir</a>
+                                        <a class="dropdown-item" href="#">Eskişehir</a>
+                                        <a class="dropdown-item" href="#">Muğla</a>
+                                        <a class="dropdown-item" href="#">Antalya</a>
+                                        <a class="dropdown-item" href="#">Çankırı</a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Nereye
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <a class="dropdown-item" href="#">Ankara</a>
+                                        <a class="dropdown-item" href="#">İstanbul</a>
+                                        <a class="dropdown-item" href="#">Bolu</a>
+                                        <a class="dropdown-item" href="#">İzmir</a>
+                                        <a class="dropdown-item" href="#">Eskişehir</a>
+                                        <a class="dropdown-item" href="#">Muğla</a>
+                                        <a class="dropdown-item" href="#">Antalya</a>
+                                        <a class="dropdown-item" href="#">Çankırı</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                
+                            <div class="col-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Tarih
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <a class="dropdown-item" href="#">16/11/2017</a>
+                                        <a class="dropdown-item" href="#">17/11/2017</a>
+                                        <a class="dropdown-item" href="#">18/11/2017</a>
+                                        <a class="dropdown-item" href="#">19/11/2017</a>
+                                        <a class="dropdown-item" href="#">20/11/2017</a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Yetişkin
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <a class="dropdown-item" href="#">1</a>
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                        <a class="dropdown-item" href="#">4</a>
+                                        <a class="dropdown-item" href="#">5</a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-1">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Çocuk
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <a class="dropdown-item" href="#">0</a>
+                                        <a class="dropdown-item" href="#">1</a>
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                        <a class="dropdown-item" href="#">4</a>
+                                        <a class="dropdown-item" href="#">5</a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ucuz Uçak Bileti Ara
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card" style="width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+    </div>
+
+  
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="_js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="_js/bootstrap.js"></script>
+
+
+</body>
